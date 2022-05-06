@@ -17,6 +17,86 @@ body{
     background-image: url('../img/3955269.jpg');
 }
 
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-columns{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.two-columns label,
+.two-columns input{
+    display: inline-block;
+    width: 40%;
+}
+
+.two-columns label{
+    text-align: right;
+    margin-right: 10px;
+}
+
+.two-columns input{
+    font-size: 1em;
+    padding: 2px;
+    width: 175px;
+}
+
+.body-login{
+    background: #f2f2f2;
+}
+
+.frm-login{
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    margin-top: 200px;
+    /*background: #cccccc;*/
+    border-radius: 5px;
+
+}
+
+.body-login .frm-login .logo img{
+    width: 170px;
+    margin-top: 60px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.body-login .frm-login .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    margin-top: 50px;
+}
+
+.body-login .frm-login .buttons button{
+    height: 30px;
+    width: 105px;
+    background: linear-gradient(-90deg, #81A8CB, #4477A1) repeat scroll 0 0 transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.body-login .frm-login .buttons button:hover{
+    background: linear-gradient(-90deg, #4477A1, #81A8CB) repeat scroll 0 0 transparent;
+}
+
+.body-login .frm-login .buttons button:active {
+    position: relative;
+    top: 1px;
+}
+
 .header__header{
     width: 85%;
     margin: auto;
@@ -31,7 +111,7 @@ body{
 }
 
 .header__header .header__header-logo img{
-    width: 175px;
+    width: 200px;
     
 }
 
